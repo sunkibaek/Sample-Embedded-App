@@ -1049,6 +1049,18 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.5.2.tgz#5d92d8ad0f2bd79de2290614e74e5a12a0cda02b"
   integrity sha512-ch/16u3OVy/aIXJROwqXZjGw/tFMyG7qy2IGDA2RFjvQMtPyJJrklmwX2EcfH4+4spRI2MZKes2soI+0w2/MDQ==
 
+"@shopify/app-bridge-react@^1.26.2":
+  version "1.26.2"
+  resolved "https://registry.yarnpkg.com/@shopify/app-bridge-react/-/app-bridge-react-1.26.2.tgz#9cd640e0270fef62c9ccce17433ca51bd29c858e"
+  integrity sha512-3wIt9EJLUF8364/vIfnEL/eNDzA2oVFfaIDLOuwFaU2ArXvKjT5GWxx2HvPgA6G96bYigd0d/pkJZUpCJGP7tA==
+  dependencies:
+    "@shopify/app-bridge" "^1.26.2"
+
+"@shopify/app-bridge@^1.26.2":
+  version "1.26.2"
+  resolved "https://registry.yarnpkg.com/@shopify/app-bridge/-/app-bridge-1.26.2.tgz#be6bee22afc32ec668606039e2bb501562da5ae7"
+  integrity sha512-T+KdIh6Tj6AfGUeG2k6hUcAYP2pw9safO/CduZ49CLK6AJxotjoblmS8geGst9lWSM8MZd7SQ5xtSme1CQM4+A==
+
 "@shopify/koa-shopify-auth@^3.1.66":
   version "3.1.66"
   resolved "https://registry.yarnpkg.com/@shopify/koa-shopify-auth/-/koa-shopify-auth-3.1.66.tgz#d5c062fc179c6123dbc20b5aff55ad805566960f"
@@ -3389,6 +3401,11 @@ jest-worker@24.9.0:
   dependencies:
     merge-stream "^2.0.0"
     supports-color "^6.1.0"
+
+js-cookie@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"
+  integrity sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
